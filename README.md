@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MedCE Hub is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://medcehub.com/
+MedCE Hub provides a searchable directory of CME (Continuing Medical Education) and CE (Continuing Education) conferences across the United States for physicians, nurse practitioners, nurses, veterinarians, pharmacists, and other health professionals. The site aggregates official conference information, licensing requirements, and CE credit details, linking to source organizers and offering tools such as a multi‑state CE planner and conference finder. All data is regularly verified by the editorial team.
+
+**Areas:** Company · Healthcare · Education · Conferences · Directory
+
+## MedCE Hub on APIs.io
+
+Everything profiled for MedCE Hub is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/medcehub/](https://apis.io/providers/medcehub/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [MedCE Hub Conferences API](https://apis.io/apis/medcehub/medcehub-conferences-api/) — CME conferences, medical conferences and CE meetings in the US.
+- [MedCE Hub Reference API](https://apis.io/apis/medcehub/medcehub-reference-api/) — Professions, specialties, states, mandatory topics and credit types.
+- [MedCE Hub Requirements API](https://apis.io/apis/medcehub/medcehub-requirements-api/) — CME and CE requirements for license renewal by state and profession.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MedCE Hub Agentic Access](https://apis.io/agentic-access/medcehub/medcehub-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ConferenceCollection](https://apis.io/schemas/medcehub/medcehub-conference-collection/)
+- [ConferenceDocument](https://apis.io/schemas/medcehub/medcehub-conference-document/)
+- [IndexDocument](https://apis.io/schemas/medcehub/medcehub-index-document/)
+- [ReferenceCollection](https://apis.io/schemas/medcehub/medcehub-reference-collection/)
+- [RequirementDocument](https://apis.io/schemas/medcehub/medcehub-requirement-document/)
+- [RequirementIndex](https://apis.io/schemas/medcehub/medcehub-requirement-index/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Medcehub Context](https://apis.io/jsonld/medcehub/medcehub-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MedCE Hub API Rules](https://apis.io/rules/medcehub/medcehub-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MedCE Hub Domain Security](https://apis.io/security/medcehub/medcehub-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://medcehub.com/)
+- [Documentation](https://api.medcehub.com/)
+- [Terms of service](https://medcehub.com/terms)
+- [Privacy policy](https://medcehub.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 36.0** — thin · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 54.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 16.0 |
+| Access clarity | 17.0 |
+
+**Agent readiness 27.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.2** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/medcehub/](https://apis.io/providers/medcehub/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MedCE Hub: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/medcehub/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
